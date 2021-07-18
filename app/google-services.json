@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948064412794",
+    "firebase_url": "https://onrent-f6c2c.firebaseio.com",
+    "project_id": "onrent-f6c2c",
+    "storage_bucket": "onrent-f6c2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948064412794:android:10fcfe1136490555",
+        "android_client_info": {
+          "package_name": "au.edu.jcu.flatOnRent.onrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948064412794-sp3p7iru8tf7nsb1bk9qrpenl4a2e3ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "au.edu.jcu.flatOnRent.onrent",
+            "certificate_hash": "a347ccab9033f5f87e3a25b3ad2793607d5e4c9a"
+          }
+        },
+        {
+          "client_id": "948064412794-kqrd9upuv6ng372bbgl7mk9catf7ihj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSGipjzn-rF-EkR8uLgdsZjOoeCsCnVdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948064412794-kqrd9upuv6ng372bbgl7mk9catf7ihj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

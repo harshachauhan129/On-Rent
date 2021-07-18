@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startingPages.RegisterActivity"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/toolbar_register"
+        style="@style/MyCustomTheme"
+        />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:background="@drawable/linearcorner"
+
+           >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/marginTop"
+                android:background="@drawable/logo"
+                android:id="@+id/iv"
+                android:layout_gravity="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New User! Register Here..!!"
+                android:textSize="@dimen/fontSize"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="cursive"
+                android:textFontWeight="2"
+                android:textColorHint="@color/textw"
+                />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/marginTop"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter your name..."
+                        android:textColor="@color/textw"
+                        android:id="@+id/name"
+                        android:drawableLeft="@drawable/person"
+                        android:textColorHint="@color/textw"
+                        android:drawableTint="@color/textw"
+                        android:backgroundTint="@color/colorPrimary"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/email"
+                        android:hint="Enter your email"
+                        android:inputType="text"
+                        android:textColor="@color/textw"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableLeft="@drawable/mail"
+                        android:drawableTint="@color/textw"
+                        android:textColorHint="@color/textw"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <com.hbb20.CountryCodePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ccp"
+                    app:ccp_arrowColor="@color/textw"
+                    app:ccp_contentColor="@color/textw"
+                    >
+
+                </com.hbb20.CountryCodePicker>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/p_number"
+                            android:hint="Enter your phone no"
+                            android:inputType="phone"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:drawableLeft="@drawable/call"
+                            android:textColorHint="@color/textw"
+                            android:textColor="@color/textw"
+                            android:drawableTint="@color/textw">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:background="@color/colorPrimary"
+                android:text="REGISTER"
+                android:textSize="15dp"
+                android:textColor="@color/textw"
+                android:textColorHighlight="@color/textw"
+                android:id="@+id/register"
+                />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:id="@+id/layoutlinear">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_marginTop="@dimen/marginTop">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter OTP"
+                            android:drawableLeft="@drawable/pen"
+                            android:drawableTint="@color/textw"
+                            android:textColorHint="@color/textw"
+                            android:layout_marginTop="@dimen/marginTop"
+                            android:id="@+id/otp"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="20dp"
+                        android:text="VERIFY"
+                        android:textSize="15dp"
+                        android:textColor="@color/textw"
+                        android:id="@+id/verify_otp"
+                        android:textColorHighlight="@color/colorPrimary"
+                        />
+                </LinearLayout>
+
+
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

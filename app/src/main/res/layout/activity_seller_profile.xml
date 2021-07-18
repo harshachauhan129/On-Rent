@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Seller.SellerProfile"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/Pleft"
+            android:text="MY PROFILE"
+            android:textColor="@color/textw"
+            android:textSize="20dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearcorner"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile"
+            android:layout_marginTop="@dimen/Pleft"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/background"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/for_camra"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/profile_image"
+            android:layout_alignRight="@+id/profile_image"
+            android:layout_alignBottom="@+id/profile_image"
+            app:backgroundTint="@color/textw"/>
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background"
+            android:padding="@dimen/fontSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corners"
+                android:padding="@dimen/fontSize"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corners"
+                    android:padding="@dimen/Paddingg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Harsha Chauhan"
+                    android:textColor="@color/textw"
+                    android:drawableRight="@drawable/pen"
+                    android:drawableTint="@color/textw"
+                    android:id="@+id/user_name"
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corners"
+                    android:padding="@dimen/Paddingg"
+                    android:layout_marginTop="@dimen/Pright">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="harshachauhan@gmail.com"
+                        android:textColor="@color/textw"
+                        android:drawableRight="@drawable/pen"
+                        android:drawableTint="@color/textw"
+                        android:id="@+id/user_email"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corners"
+                    android:padding="@dimen/Paddingg"
+                    android:layout_marginTop="@dimen/Pright">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91-8289054180"
+                        android:textColor="@color/textw"
+                        android:drawableRight="@drawable/pen"
+                        android:drawableTint="@color/textw"
+                        android:id="@+id/user_contact"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/corners"
+                    android:padding="@dimen/Paddingg"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="@dimen/Pleft">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Wish List"
+                        android:textSize="@dimen/fontSize"
+                        android:textColor="@color/textw"
+                        android:gravity="left|center"
+                        android:paddingLeft="@dimen/Pleft"
+                        android:background="@drawable/corners"
+                        android:layout_marginTop="@dimen/Pright"
+                        android:drawableRight="@drawable/right"
+                        android:drawableTint="@color/textw"
+                        android:id="@+id/wishlist"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="My Uploads"
+                        android:textSize="@dimen/fontSize"
+                        android:textColor="@color/textw"
+                        android:gravity="left|center"
+                        android:paddingLeft="@dimen/Pleft"
+                        android:background="@drawable/corners"
+                        android:layout_marginTop="@dimen/Pright"
+                        android:drawableRight="@drawable/right"
+                        android:drawableTint="@color/textw"
+                        android:id="@+id/my_uploads"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="My Orders"
+                        android:textSize="@dimen/fontSize"
+                        android:textColor="@color/textw"
+                        android:gravity="left|center"
+                        android:paddingLeft="@dimen/Pleft"
+                        android:background="@drawable/corners"
+                        android:layout_marginTop="@dimen/Pright"
+                        android:drawableRight="@drawable/right"
+                        android:id="@+id/my_orders"
+                        android:drawableTint="@color/textw"
+                        />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>

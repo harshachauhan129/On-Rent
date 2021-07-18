@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentation.WishList"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button"
+            android:backgroundTint="@color/textw"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wish List"
+            android:textSize="@dimen/HeadingSize"
+            android:textColor="@color/textw"
+            android:layout_marginLeft="40dp"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wish_list"
+        android:backgroundTint="@color/textw"
+        android:background="@drawable/linearcorner"/>
+
+
+</LinearLayout>

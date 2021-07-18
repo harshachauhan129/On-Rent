@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">On Rent</string>
+    <string-array name="profile">
+        <item>Select Profile</item>
+        <item>Seller</item>
+        <item>Buyer</item>
+    </string-array>
+
+    <string-array name="availability">
+        <item>Select Availability</item>
+        <item>For Girls</item>
+        <item>For Boys</item>
+    </string-array>
+    <string-array name="furnished">
+        <item>Furnished Status</item>
+        <item>Prtially Furnished</item>
+        <item>Fully Furnished</item>
+        <item>Not Furnished</item>
+    </string-array>
+    <string-array name="water">
+        <item>Water Availability</item>
+        <item>Limited</item>
+        <item>Full Day</item>
+    </string-array>
+    <string-array name="rooms">
+        <item>Type of room</item>
+        <item>Shared</item>
+        <item>Independent</item>
+    </string-array>
+    <string-array name="time">
+        <item>Time Restriction</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="accomodation">
+        <item>Accomodation Type</item>
+        <item>Paying guest</item>
+        <item>Shared Room</item>
+        <item>Flat</item>
+    </string-array>
+    <string-array name="meal">
+        <item>Meal Status</item>
+        <item>Tiffin Service</item>
+        <item>With Meal</item>
+        <item>Without Meal</item>
+    </string-array>
+    <string-array name="category_book">
+        <item>Select book category</item>
+        <item>Engineering</item>
+        <item>Banking</item>
+        <item>Novel</item>
+        <item>IELTS</item>
+        <item>GRE</item>
+        <item>JEE Mains</item>
+        <item>School Level</item>
+        <item>Competitive</item>
+        <item>Novel</item>
+
+    </string-array>
+    <string-array name="category_electronics">
+        <item>Select the category</item>
+        <item>Cooler</item>
+        <item>Fridge</item>
+        <item>Mobile</item>
+        <item>Laptop</item>
+        <item>Cattle</item>
+        <item>Washing Machine</item>
+        <item>Hair dryer</item>
+        <item>Fan</item>
+        <item>Speaker</item>
+        <item>UPS</item>
+        <item>Computer System</item>
+        <item>Play stations</item>
+        <item>TV/LED/LCD</item>
+        <item>Filter</item>
+        <item>AC</item>
+        <item>ironing machine</item>
+    </string-array>
+
+
+    <string name="title_activity_buyer_profile">BuyerProfile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_buyer__profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>
